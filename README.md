@@ -55,4 +55,7 @@ This is a simple Node.js and Express.js web application with an EJS templating e
 ├── package.json     # Dependencies and scripts
 ├── server.js        # Main server script
 
+## Updates:
+  Enhanced Page Styling 28th November 2024
+
    
