@@ -60,11 +60,19 @@ p a:hover{
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 3px dashed red;
+    border: 3px dashed green;
 }
 
 .content-container{
+    
     padding: 15px;
+}
+
+.inner-content-container{
+    background-color: rgb(81, 133, 255);
+    border-radius: 10px;
+    border: 2px solid white;
+    
 }
 
 
@@ -84,7 +92,8 @@ p a:hover{
 }
 
 .nav-bar a:hover{
-    color: #ffd700;
+    color: #309efe;
+    
 }
 
 
@@ -139,11 +148,11 @@ p a:hover{
 }
 
 .news-card {
-    background: white;
-    color: red;
+    background: rgb(81, 133, 255);
+    color: white;
     padding: 16px;
     border-radius: 8px;
-    border: 1px, dotted, red;
+    border: 1px, solid, white;
     width: 100%;
     max-width: 300px;
     text-align: left;
@@ -177,23 +186,24 @@ p a:hover{
 }
 
 .project-card {
-    background-color: #f9f9f9;
+    background-color: rgb(128, 164, 248);
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px white;
 }
 
 .project-card h3 {
     margin: 0 0 10px;
     font-size: 1.2em;
-    color: #f90c0c;
+    color: white;
 }
 
 .project-card p {
     margin: 5px 0;
-    color: #555;
+    color: black;
 }
+
 
 .project-card a {
     display: inline-block;
@@ -237,29 +247,140 @@ p a:hover{
 }
 
 .info-container {
-    background-color: white;
-    color: red;
+    background-color: rgb(128, 164, 248);
+    color: white;
     font-size: 1.2rem; 
     font-weight: bold;
     padding: 20px 40px;
     border-radius: 15px;
     text-align: left; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 3px dashed red;
+    box-shadow: 0 4px 10px rgba(32, 151, 255, 0.2);
+    border: 3px dashed white;
     width: 80%; 
     max-width: 800px; 
     line-height: 1.6; 
     display: inline-block;
 }
 
+
 .info-container strong{
-    color: green;
+    color: rgb(0, 62, 233);
+}
+
+.info-container a{
+    color: white;
+}
+
+.info-container a:hover{
+    color: #6ba6ef;
 }
 
 .center-container{
-
     display: flex;
     justify-content: center;
 
     
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .nav-bar ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+
+    .Dashboard h1 {
+        font-size: 36px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .Dashboard p {
+        font-size: 12pt;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .holiday-vibe {
+        font-size: 0.8em;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+
+    .content-container {
+        padding: 10px;
+    }
+
+    .inner-content-container {
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #news-container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .news-card {
+        max-width: 100%;
+        width: auto;
+        padding: 10px;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .project-card {
+        padding: 10px;
+    }
+
+    .project-card h3 {
+        font-size: 1em;
+    }
+
+    .project-card p {
+        font-size: 0.9em;
+    }
+
+    .info-container {
+        font-size: 1rem;
+        padding: 15px;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .info-container strong {
+        font-size: 1.1em;
+    }
+
+    .info-container a {
+        font-size: 0.9em;
+    }
+
+    .center-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .santa img {
+        width: 150px;
+        height: 150px;
+    }
 }

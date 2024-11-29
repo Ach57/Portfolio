@@ -5,7 +5,7 @@
     'images/backcoding.gif'
 ]*/
 const images = [
-    'images/christmasSpecial/christmas4.jpg'
+    'images/christmasSpecial/christmas5.webp'
 ]
 
 let player;
@@ -191,6 +191,8 @@ function displayRepositories(projects) {
 
     });
 }
+
+
 
 document.addEventListener('DOMContentLoaded',fetchNews);
 
