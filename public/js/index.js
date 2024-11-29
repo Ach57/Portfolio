@@ -6,7 +6,6 @@
 ]*/
 const images = [
     'images/christmasSpecial/christmas5.webp',
-    'images/christmasSpecial/christmas6.webp'
 ]
 
 let player;
