@@ -30,7 +30,7 @@ const songIdList = [
 
 const projects = [
     {
-        name: "Validator-For-SharePoint",
+        name: "Tree-Structured-Validator",
         language: 'Python',
         description: "A GUI displaying folder structures using algorithms to solve real-world problems.",
         url: 'https://github.com/Ach57/Validator-For-SharePoint'
