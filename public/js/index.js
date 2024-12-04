@@ -10,6 +10,14 @@ const images = [
 
 let player;
 let lastPlayedIndex = -1;
+
+const songIdList = [
+    'Q_yuO8UNGmY',
+    '_JIzf5aqOIQ',
+    '4p2fprc8-F0',
+    ]
+
+/*
 const songIdList = [
     'QpbQ4I3Eidg', 
     'riP6j7SZ04s',
@@ -25,7 +33,7 @@ const songIdList = [
     'TTOPBQhrvtQ',
     'nvH8Ary1TS0',
     'jaGb1lVHTcA'
-]
+]*/
 
 
 const projects = [
