@@ -5,19 +5,11 @@
     'images/backcoding.gif'
 ]*/
 const images = [
-    'images/christmasSpecial/christmas5.webp',
+    'images/christmasSpecial/christmas5.webp'
 ]
 
 let player;
 let lastPlayedIndex = -1;
-
-const songIdList = [
-    'Q_yuO8UNGmY',
-    '_JIzf5aqOIQ',
-    '4p2fprc8-F0',
-    ]
-
-/*
 const songIdList = [
     'QpbQ4I3Eidg', 
     'riP6j7SZ04s',
@@ -33,12 +25,12 @@ const songIdList = [
     'TTOPBQhrvtQ',
     'nvH8Ary1TS0',
     'jaGb1lVHTcA'
-]*/
+]
 
 
 const projects = [
     {
-        name: "Tree-Structured-Validator",
+        name: "Validator-For-SharePoint",
         language: 'Python',
         description: "A GUI displaying folder structures using algorithms to solve real-world problems.",
         url: 'https://github.com/Ach57/Validator-For-SharePoint'
@@ -53,16 +45,13 @@ const projects = [
         name: "Task-Management-System",
         language: "JavaScript, Node.js",
         description: "A role-based task management platform with real-time updates.",
-        url: "https://warehouse-management-system-ef0n.onrender.com"
+        url: "https://github.com/Ach57/Task-Management-System"
     },
-
     {
-        name: "Warehouse-Management-System",
-        language: 'Java Script',
-        description: '
-        
-
-        
+        name: "Pet-Adoption-Website",
+        language: 'JavaScript, Node.js',
+        description: "A user-friendly pet adoption platform for seamless interactions.",
+        url: 'https://github.com/Ach57/Pet-Adoption-Website/tree/main'
     },
     {
         name: "JsonDataManagement",
