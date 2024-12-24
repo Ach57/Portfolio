@@ -29,10 +29,10 @@ const songIdList = [
 ]*/
 
 const songIdList = [
-    'v=t3zqFusFXis',
-    'v=Q_yuO8UNGmY',
-    'v=wmHWzF04xiw',
-    'v=KyAxqV8-H8c'
+    't3zqFusFXis',
+    'Q_yuO8UNGmY',
+    'wmHWzF04xiw',
+    'KyAxqV8-H8c'
 ] // Christmas play list
 
 const projects = [
