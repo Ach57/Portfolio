@@ -10,6 +10,7 @@ const images = [
 
 let player;
 let lastPlayedIndex = -1;
+/*
 const songIdList = [
     'QpbQ4I3Eidg', 
     'riP6j7SZ04s',
@@ -25,7 +26,7 @@ const songIdList = [
     'TTOPBQhrvtQ',
     'nvH8Ary1TS0',
     'jaGb1lVHTcA'
-]
+]*/
 
 const songIdList = [
     'v=t3zqFusFXis',
