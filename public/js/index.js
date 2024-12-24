@@ -27,6 +27,12 @@ const songIdList = [
     'jaGb1lVHTcA'
 ]
 
+const songIdList = [
+    'v=t3zqFusFXis',
+    'v=Q_yuO8UNGmY',
+    'v=wmHWzF04xiw',
+    'v=KyAxqV8-H8c'
+] // Christmas play list
 
 const projects = [
     {
