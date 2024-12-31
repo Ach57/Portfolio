@@ -5,7 +5,7 @@
     'images/backcoding.gif'
 ]*/
 const images = [
-    'images/christmasSpecial/christmas5.webp'
+    'images/NewYear/newYear.jpg'
 ]
 
 let player;
