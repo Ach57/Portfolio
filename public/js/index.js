@@ -12,20 +12,11 @@ let player;
 let lastPlayedIndex = -1;
 
 const songIdList = [
-    'QpbQ4I3Eidg', 
-    'riP6j7SZ04s',
-    'FoTcOhBgV0Q',
-    'TdFp3n8KXhw',
-    'xcCrguO4le8',
-    'Y1PtTAKdixE',
-    'x4m5OZl46Ro',
-    'rLG8yReHs7k',
-    'Qbe3oSfUG00',
-    'N6tv11_KMiM',
-    '6Rnfycj5ZKc',
-    'TTOPBQhrvtQ',
-    'nvH8Ary1TS0',
-    'jaGb1lVHTcA'
+   '1RKqOmSkGgM',
+    'ekr2nIex040',
+    '3m3iPhx5pro',
+    'nVq_Gua4wsQ',
+    'U5rLz5AZBIA'
 ]
 /*
 const songIdList = [
