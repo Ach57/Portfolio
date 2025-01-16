@@ -1,12 +1,13 @@
-/*const images = [
+const images = [
     'images/codingback.webp',
     'images/codingback.gif',
     'images/codingBackground.webp',
     'images/backcoding.gif'
-]*/
+]
+/*
 const images = [
     'images/NewYear/newYear.jpg'
-]
+]*/
 
 let player;
 let lastPlayedIndex = -1;
