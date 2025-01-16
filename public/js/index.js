@@ -28,6 +28,13 @@ const songIdList = [
 ] // Christmas play list
 */
 const projects = [
+     {
+        name: "Financial-Market-Simulation",
+        language: "Python, JavaScript, NodeJs",
+        description: "Financial Market Simulation using Monte Carlo, Markov Chain and Genetec Algorithm",
+        url: "https://github.com/Ach57/Financial-Market-Simulation"
+
+    },
     {
         name: "Validator-For-SharePoint",
         language: 'Python',
