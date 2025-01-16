@@ -44,7 +44,7 @@ const projects = [
         name: "Task-Management-System",
         language: "JavaScript, Node.js",
         description: "A role-based task management platform with real-time updates.",
-        url: "https://warehouse-management-system-ef0n.onrender.com/"
+        url: "https://github.com/Ach57/Warehouse-Management-System"
     },
     {
         name: "Pet-Adoption-Website",
