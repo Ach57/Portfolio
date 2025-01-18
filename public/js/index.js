@@ -50,6 +50,12 @@ const porjects = [
         description: "Reads and sorts words from a file based on specific criteria.",
         imgSrc:  "images/C.png",
         url: "https://github.com/Ach57/Text-Interpreter-App"
+    },
+    {
+        title: "Banking-App",
+        description: "GUI Banking app for deposit/withrdaw/interest rate",
+        imgSrc: 'images/banking.jpg',
+        url:"https://github.com/Ach57/Banking-App"
     }
 
     
