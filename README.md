@@ -1,61 +1,25 @@
-# Portfolio
+# Achraf's Portfolio
 
-This is a simple Node.js and Express.js web application with an EJS templating engine for rendering dynamic pages and a RESTful API to fetch and display top news headlines using the News API.
-
----
+Welcome to my personal portfolio website! This project showcases my skills, projects, and personal interests, along with providing a way to connect with me. It's designed to reflect my passion for computer science, data science, and personal growth.
 
 ## Features
 
-- **Dynamic Routing**: 
-  - Renders different pages using EJS templates: `index`, `about`, `projects`, `skills`, and `contact`.
-- **Static Files**: 
-  - Serves static files from the `public` directory for CSS, JavaScript, or image assets.
-- **News API Integration**: 
-  - Fetches top US news headlines using the [News API](https://newsapi.org/) and provides them via the `/api/news` route.
-- **Environment Configuration**: 
-  - Uses `dotenv` to manage environment variables securely.
+- **Responsive Design**: Built with Bootstrap 5 to ensure a seamless experience across all devices.
+- **Hero Section**: A welcoming section highlighting the purpose of the portfolio.
+- **About Me**: A brief introduction about who I am and what I do.
+- **Projects**: A dynamic section showcasing my work and achievements.
+- **Extras**: A personal touch with details about my fitness journey.
+- **Contact Section**: Links to my GitHub and LinkedIn for easy communication.
+- **Snowstorm Effect**: An interactive and visually appealing snowfall effect for a touch of creativity.
 
 ---
+## Technologies Used
 
-## Requirements
+- **HTML5**: Structuring the content of the website.
+- **CSS3**: Styling and design using a combination of custom CSS and Bootstrap 5.
+- **JavaScript**: Adding interactivity, including snowstorm effects.
+- **Bootstrap 5**: For responsive and modern UI components.
 
-- **Node.js**: v14 or later
-- **npm**: v6 or later
-- A [News API Key](https://newsapi.org/) for fetching top headlines.
+## How to Run the Project
 
----
-
-## Setup and Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-
-2. **Install dependencies:
-    ```bash
-    npm install
-3. **Set up environment variables:
-    ```bash
-    NEWS_API_KEY=your_api_key_here
-
-## Directory Structure
-.
-├── public/
-│   ├── css/         # Static CSS files
-│   ├── js/          # Static JavaScript files
-│   ├── images/      # Static image assets
-├── views/
-│   ├── index.ejs    # Homepage
-│   ├── about.ejs    # About page
-│   ├── projects.ejs # Projects page
-│   ├── skills.ejs   # Skills page
-│   ├── contact.ejs  # Contact page
-├── .env             # Environment variables
-├── package.json     # Dependencies and scripts
-├── server.js        # Main server script
-
-## Updates:
-  Enhanced Page Styling 28th November 2024
-
-   
+https://portfolio-wefs.onrender.com/
