@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achraf's Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel = "stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Achraf's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#extra">Extras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my work, skills, and get in touch!</p>
+      <a href="#projects" class="btn btn-custom btn-lg">View Projects</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">About Me</h2>
+      <img src="images/profile.jpeg" alt="Achraf" class="rounded-img mb-3">
+      <p>Hi, I'm <strong>Achraf</strong>! I'm a passionate Computer Science student specializing in Data Science, currently in my third year at university. This portfolio showcases my projects, where I strive to create meaningful and innovative solutions with ❤.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div id="projects-container" class="row"></div>
+  </div>
+</section>
+
+
+<!-- Extra Section-->
+
+<section id="extra" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">My Gym Journey</h2>
+    <img src="images/gym.PNG" alt="Achraf" class="rounded-img mb-3">
+    <p class="text-center mb-4">Fitness has been a huge part of my personal growth. Here’s a glimpse into my journey:</p>
+  </div>
+
+  <!-- Additional Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>My Fitness Goals</h3>
+        <p>I've always focused on improving my strength, endurance, and overall health. My goals are to continually push myself and embrace challenges both in the gym and in life.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Progress</h3>
+        <p>Over the past few years, I've achieved significant progress, including lifting heavier weights and improving my stamina. I’m excited to keep growing!</p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <h3>Workout Routine</h3>
+        <p>Each week, I dedicate time to a variety of exercises, including weightlifting, cardio, and flexibility training.</p>
+        <ul>
+          <li>5 days a week at the gym</li>
+          <li>Mix of strength and conditioning</li>
+          <li>Focus on push/pull/legs workouts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<!--Contact Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <p class="text-center mb-4">Feel free to reach out to me via the following platforms:</p>
+    <div class="d-flex justify-content-center">
+      <a href="https://github.com/Ach57" class="btn btn-primary me-3" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/achraf-c-0bbb19177/" class="btn btn-primary" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 
+  Contact Section
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form action="/submit" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Send</button>
+      </form>
+    </div>
+  </section>
+-->
+
+
+
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Achraf. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm.js"></script>
+  <script>
+    snowStorm.snowColor = '#FFF';
+    snowStorm.flakesMaxActive = 50;
+    snowStorm.animationInterval = 33;
+    snowStorm.useTwinkleEffect = true;
+    snowStorm.flakesMax = 100;
+    snowStorm.flakeWidth = 20;
+    snowStorm.flakeHeight = 20;
+    snowStorm.vMaxX = 5;
+    snowStorm.vMaxY = 5;
+
+</script>
+</body>
+</html>
